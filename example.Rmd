@@ -1,6 +1,6 @@
 ---
 title: "SISBID day 2 code"
-output: html_document
+output: word_document
 ---
 
 Installing google sheets
