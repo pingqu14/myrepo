@@ -1,0 +1,30 @@
+---
+title: "SISBID day 2 code"
+output: html_document
+---
+
+Installing google sheets
+```{r}
+install.packages("googlesheets")
+library(googlesheets)
+
+```
+
+Reading a google sheet
+
+```{r}
+sheets_url = "https://docs.google.com/spreadsheets/d/18KQQd4LY5k8Ucux1MvWCsQGQJlvd0ECTnn-3ixdOKFM/pubhtml"
+gsurl1 = gs_url(sheets_url)
+dat = gs_read(gsurl1)
+date_accessed = date()
+date_accessed
+
+```
+
+
+Look at the result
+
+```{r lookatresult}
+dat
+```
+
