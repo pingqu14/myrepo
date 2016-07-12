@@ -7,7 +7,6 @@ Installing google sheets
 ```{r}
 install.packages("googlesheets")
 library(googlesheets)
-
 ```
 
 Reading a google sheet
