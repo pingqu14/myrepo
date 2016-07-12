@@ -17,7 +17,7 @@ gsurl1 = gs_url(sheets_url)
 dat = gs_read(gsurl1)
 date_accessed = date()
 date_accessed
-
+length(date_accessed)
 ```
 
 
